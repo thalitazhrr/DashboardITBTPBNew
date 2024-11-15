@@ -1,6 +1,8 @@
-# DashboardITBTPBNew
+# React + Vite
 
-Dashboard TPB ITB adalah sebuah platform Virtual Lab berbasis website yang dirancang untuk memberikan pengalaman belajar yang lebih terintegrasi dan interaktif bagi mahasiswa. Melalui platform ini, mahasiswa dapat dengan mudah mengakses dan mengerjakan latihan, mengikuti kuis, dan memantau perkembangan belajar secara real-time. Tujuannya adalah untuk memudahkan akses terhadap informasi akademik, tugas, dan ujian, serta meningkatkan keterlibatan mahasiswa dengan materi pembelajaran kapan saja dan di mana saja, tanpa batasan ruang dan waktu seperti di laboratorium fisik. Platform ini memberikan lingkungan pembelajaran yang modern dan fleksibel guna mendukung keberhasilan akademik mahasiswa.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-Platform Dashboard TPB ITB  front end berbasis Node.js, menggunakan HTML5, CSS3, dan JavaScript untuk mengatur struktur halaman, tampilan visual, serta interaksi pengguna. Elemen-elemen seperti daftar (sign up), masuk (log in), navigasi antar halaman, pengaturan kuis, dan penyimpanan progress pengguna dikelola dengan bantuan Firebase sebagai layanan backend. Firebase tidak hanya mendukung autentikasi pengguna untuk proses sign up dan log in, tetapi juga menyimpan progress kuis dan nilai secara realtime. Dengan Firebase, progress pengguna dapat diakses kapan saja, bahkan setelah pengguna keluar atau menggunakan perangkat yang berbeda, sehingga memberikan pengalaman belajar yang lebih mulus dan konsisten.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
