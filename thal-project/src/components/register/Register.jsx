@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './register.css';
-import firebaseApp from '../../services/firebase-sdk';
+import firebaseApp from '../../../services/firebase-sdk';
 import { getDatabase, ref, set } from 'firebase/database';
 
 const Register = () => {
