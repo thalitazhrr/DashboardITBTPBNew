@@ -1,0 +1,98 @@
+:root {
+  --main-color : #0a2d41;
+  --secondary-color : #fafafa;
+  --font-color : #323232;
+  --font-color-light : #fff;
+  --font-color-secondary-light : #bbbbbb;
+  --font-secondary-color : #559ca5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+}
+
+.navbar {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: var(--main-color);
+  color: var(--font-color-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px;
+  border-bottom-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, var(--font-secondary-color) 20%, var(--main-color) 80%) 1;
+  z-index: 50;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  background-color: var(--font-color-light);
+}
+
+.profile-name {
+  margin-left: 10px;
+}
+
+.profile-name p {
+  font-size: 12px;
+  color: var(--font-color-secondary-light);
+  margin-top: 0 !important;
+}
+
+.navbar ul {
+  width: 51%;
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  padding: 26px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.navbar ul a {
+  color: var(--font-color-light);
+  text-decoration: none;
+}
+
+.navbar ul a:hover {
+  color: var(--font-secondary-color);
+}
+
+.notifikasi {
+  margin-right: 30px;
+}
+
+.notifikasi i {
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.notifikasi i:hover {
+  background-color: #fafafa70;
+}
