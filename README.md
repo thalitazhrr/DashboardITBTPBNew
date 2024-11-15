@@ -1,4 +1,4 @@
-# DashboardITBTPBNew
+# Dashboard ITB TPB
 ## oleh Thalita Zahra Sutejo (18222023)
 Dashboard TPB ITB adalah sebuah platform Virtual Lab berbasis website yang dirancang untuk memberikan pengalaman belajar yang lebih terintegrasi dan interaktif bagi mahasiswa. Melalui platform ini, mahasiswa dapat dengan mudah mengakses dan mengerjakan latihan, mengikuti kuis, dan memantau perkembangan belajar secara real-time. Tujuannya adalah untuk memudahkan akses terhadap informasi akademik, tugas, dan ujian, serta meningkatkan keterlibatan mahasiswa dengan materi pembelajaran kapan saja dan di mana saja, tanpa batasan ruang dan waktu seperti di laboratorium fisik. Platform ini memberikan lingkungan pembelajaran yang modern dan fleksibel guna mendukung keberhasilan akademik mahasiswa.
 
