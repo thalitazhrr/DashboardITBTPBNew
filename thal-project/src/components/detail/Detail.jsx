@@ -69,7 +69,7 @@ const Detail = () => {
           <li><a href="">Tentang ITB</a></li>
           <li><a href="">Jadwal</a></li>
           <li><a href="">Level Siswa</a></li>
-          <li><a href="">Riwayat Latihan</a></li>
+          <li><a onClick={handleRiwayatClick}>Riwayat Latihan</a></li>
         </ul>
         <div className="notifikasi">
           <i className="far fa-bell"></i>
