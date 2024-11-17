@@ -20,6 +20,10 @@ const QuizPengkom = () => {
     navigate('/dashboard', { state: { userData } });
   }
 
+  const handleRiwayatClick = () => {
+    navigate('/riwayat', { state: { userData } });
+  };
+
   const saveScoreToFirebase = (score) => {
     const db = getDatabase();
     const userRef = ref(db, 'history/' + userData.username + '/course/Quiz 1: Pengkom');

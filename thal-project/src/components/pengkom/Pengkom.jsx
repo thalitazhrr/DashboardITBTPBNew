@@ -39,6 +39,10 @@ const Pengkom = () => {
     navigate('/dashboard', { state: { userData } });
   };
 
+  const handleRiwayatClick = () => {
+    navigate('/riwayat', { state: { userData } });
+  };
+
   return (
     <>
       <header className="navbar-d">

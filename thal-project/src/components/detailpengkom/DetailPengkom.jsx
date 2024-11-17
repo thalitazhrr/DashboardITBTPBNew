@@ -43,6 +43,10 @@ const DetailPengkom = () => {
     navigate('/quizpengkom', { state: { userData: userData } });
   }
 
+  const handleRiwayatClick = () => {
+    navigate('/riwayat', { state: { userData } });
+  };
+
   return (
     <>
       <header className="navbar-d">
