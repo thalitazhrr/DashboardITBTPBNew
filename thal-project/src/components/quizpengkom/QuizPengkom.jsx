@@ -39,7 +39,7 @@ const QuizPengkom = () => {
   const questions = [
     {
       question: "Apa yang dimaksud dengan kemampuan Penggunaan Logika dalam Berpikir Komputasional?",
-      answers: ["A. Kemampuan untuk membuat keputusan tanpa alasan yang jelas", "B. Kemampuan untuk menggunakan pengetahuan empiris", "C. Kemampuan untuk mengembangkan dan menguji solusi", "D. Kemampuan untuk mengabaikan logika dalam memecahkan masalah"],
+      answers: ["A. Kemampuan untuk membuat keputusan tanpa alasan yang jelas", "B. Kemampuan untuk menggunakan pengetahuan empiris", "C. Kemampuan untuk mengembangkan dan menguji solusi", "D. Kemampuan mengabaikan logika dalam memecahkan masalah"],
       correct: "C"
     },
     {
@@ -54,17 +54,17 @@ const QuizPengkom = () => {
     },
     {
       question: "Apa yang dimaksud dengan kemampuan Analisis Data dalam Berpikir Komputasional?",
-      answers: ["A. Kemampuan untuk menganalisis data dalam karya seni", "B. Kemampuan untuk mengidentifikasi pola dan kesamaan dalam data", "C. Kemampuan untuk menghasilkan data tanpa pola", "D. Kemampuan untuk mengabaikan data"],
+      answers: ["A. Kemampuan untuk menganalisis data dalam karya seni", "B. Kemampuan identifikasi pola dan kesamaan dalam data", "C. Kemampuan untuk menghasilkan data tanpa pola", "D. Kemampuan untuk mengabaikan data"],
       correct: "B"
     },
     {
-      question: "Langkah apa yang membantu kita menemukan algoritma atau metode yang paling efektif untuk menyelesaikan masalah dalam Berpikir Komputasional?",
+      question: "Langkah apa yang membantu menemukan algoritma atau metode paling efektif?",
       answers: ["A. Decomposition", "B. Pattern Recognition", "C. Abstraction", "D. Algorithm Design"],
       correct: "B"
     },
     {
       question: "Apa yang dimaksud dengan kemampuan Kolaborasi dalam Berpikir Komputasional?",
-      answers: ["A. Kemampuan untuk bekerja sama dan berkolaborasi dengan orang lain dalam pemecahan masalah yang kompleks", "B. Kemampuan untuk bekerja sendiri tanpa bantuan orang lain", "C. Kemampuan untuk menolak bantuan orang lain", "D. Kemampuan untuk menghindari kerja kelompok"],
+      answers: ["A. Kemampuan untuk bekerja sama dengan orang lain dalam pemecahan masalah", "B. Kemampuan bekerja sendiri tanpa bantuan orang lain", "C. Kemampuan untuk menolak bantuan orang lain", "D. Kemampuan untuk menghindari kerja kelompok"],
       correct: "A"
     },
     {
@@ -74,7 +74,7 @@ const QuizPengkom = () => {
     },
     {
       question: "Apa yang dimaksud dengan kemampuan Decomposition dalam Berpikir Komputasional?",
-      answers: ["A. Proses membuat masalah menjadi lebih kompleks", "B. Proses memecah masalah kompleks menjadi bagian yang lebih kecil dan lebih mudah dikelola", "C. Proses mengabaikan bagian penting dari masalah", "D. Proses mengabaikan masalah secara keseluruhan"],
+      answers: ["A. Proses membuat masalah menjadi lebih kompleks", "B. Proses memecah masalah kompleks menjadi bagian yang lebih kecil", "C. Proses mengabaikan bagian penting dari masalah", "D. Proses mengabaikan masalah secara keseluruhan"],
       correct: "B"
     },
     {
@@ -84,7 +84,7 @@ const QuizPengkom = () => {
     },
     {
       question: "Apa yang dimaksud dengan kemampuan Abstraksi dalam Berpikir Komputasional?",
-      answers: ["A. Kemampuan untuk menambahkan detail yang tidak penting dalam masalah", "B. Kemampuan untuk mengabaikan inti dari masalah", "C. Kemampuan untuk mengambil inti dari masalah dan mengabaikan detail yang tidak penting", "D. Kemampuan untuk memperbesar masalah menjadi lebih kompleks"],
+      answers: ["A. Kemampuan untuk menambahkan detail yang tidak penting", "B. Kemampuan untuk mengabaikan inti dari masalah", "C. Kemampuan untuk mengambil inti dari masalah dan mengabaikan detail yang tidak penting", "D. Kemampuan untuk memperbesar masalah menjadi lebih kompleks"],
       correct: "C"
     }
   ];
