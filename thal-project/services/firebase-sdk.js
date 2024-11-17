@@ -4,21 +4,13 @@ import 'firebase/firestore';
 import 'firebase/database';
 
 const firebaseConfig = {
-
-  apiKey: "AIzaSyAsMgMS_p-SoWHyCCU4IT4gzdWpmtFanDA",
-
-  authDomain: "thal-project-6166c.firebaseapp.com",
-
-  databaseURL: "https://thal-project-6166c-default-rtdb.firebaseio.com",
-
-  projectId: "thal-project-6166c",
-
-  storageBucket: "thal-project-6166c.firebasestorage.app",
-
-  messagingSenderId: "682030314986",
-
-  appId: "1:682030314986:web:b91b25335b5e63031e2e93"
-
+  apiKey: "AIzaSyBIW0DwwfKOwXPAfz-A8m7nuzW3l2aZrC4",
+  authDomain: "thalproject.firebaseapp.com",
+  databaseURL: "https://thalproject-default-rtdb.firebaseio.com",
+  projectId: "thalproject",
+  storageBucket: "thalproject.firebasestorage.app",
+  messagingSenderId: "1026633962668",
+  appId: "1:1026633962668:web:87fb6003abe715390ebb09"
 };
 
 

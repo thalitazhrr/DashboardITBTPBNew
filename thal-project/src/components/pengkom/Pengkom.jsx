@@ -191,7 +191,7 @@ const Pengkom = () => {
                     <input type="text" placeholder="Umumkan Sesuatu ke Berpikir Komputasional" />
                   </div>
                   <div className="quiz" id="quiz1" onClick={handleDetailClick}>
-                    <div className="quiz-header">
+                    <div className="quiz-header-detail">
                       <h3>Quiz 1: Yuk uji kemampuan Komputasional Dasar-mu!</h3>
                       <p>Rabu, 3 Agustus 2021</p>
                     </div>

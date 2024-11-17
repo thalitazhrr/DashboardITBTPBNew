@@ -45,7 +45,7 @@ const DetailPengkom = () => {
 
   return (
     <>
-      <header className="navbar">
+      <header className="navbar-d">
         <div className="profile">
           <div className="profile-img">
             <img src={profileImg} alt="Profile Image" />

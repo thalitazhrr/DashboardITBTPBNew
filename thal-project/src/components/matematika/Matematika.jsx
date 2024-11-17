@@ -191,7 +191,7 @@ const Matematika = () => {
                     <input type="text" placeholder="Umumkan Sesuatu ke Matematika" />
                   </div>
                   <div className="quiz" id="quiz1" onClick={handleDetailClick}>
-                    <div className="quiz-header">
+                    <div className="quiz-header-detail">
                       <h3>Quiz 1: Yuk uji kemampuan Matematika Dasar-mu!</h3>
                       <p>Rabu, 3 Agustus 2021</p>
                     </div>
